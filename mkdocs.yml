@@ -1,1 +1,46 @@
-site_name: My Docs
+site_name: RetroDocs-b1.7.3
+site_url: https://trnrr.github.io/RetroDocs-b1.7.3
+site_description: Community driven documentation for Minecraft Beta 1.7.3 Craftbukket plugins.
+repo_name: Trnrr/RetroDocs-b1.7.3
+repo_url: https://github.com/Trnrr/RetroDocs-b1.7.3
+copyright: Maintained by Trnrr
+
+##########################################################
+nav:
+- Home: index.md
+- About: about.md
+- 'Glass Repo': 'https://glass-repo.net'
+
+##########################################################
+theme:
+  name: 'material'
+  logo: assets/old-cobble.png
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - search.highlight
+    - search.share
+    - navigation.tracking
+    - content.action.view
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      #scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+##########################################################
+plugins:
+  - search:
+      lang: en
