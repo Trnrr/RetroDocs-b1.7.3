@@ -9,10 +9,9 @@ copyright: Maintained by Trnrr
 nav:
 - Home: index.md
 - Setting up a Server.md
-- ... | Bukket Plugins/*/*.md
+- ...
 - 'Glass Repo': 'https://glass-repo.net'
-- Misc:
-  - ...
+- Licenses: licenses.md
 
 ##########################################################
 theme:
@@ -60,8 +59,10 @@ markdown_extensions:
   - pymdownx.superfences
   - def_list
   - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji 
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde

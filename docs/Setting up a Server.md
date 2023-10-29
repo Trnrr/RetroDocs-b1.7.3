@@ -3,7 +3,7 @@ title: Setting up a Server
 ---
 
 ## title
-..how to setup a beta 1.7.3 server..
+Include basic information about how to get a server up and running. 
 
 craftbukkit
 
