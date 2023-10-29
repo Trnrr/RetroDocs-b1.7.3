@@ -8,8 +8,11 @@ copyright: Maintained by Trnrr
 ##########################################################
 nav:
 - Home: index.md
-- About: about.md
+- Setting up a Server.md
+- ... | Bukket Plugins/*/*.md
 - 'Glass Repo': 'https://glass-repo.net'
+- Misc:
+  - ...
 
 ##########################################################
 theme:
@@ -22,6 +25,7 @@ theme:
     - search.share
     - navigation.tracking
     - content.action.view
+    - content.code.copy
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -44,3 +48,20 @@ theme:
 plugins:
   - search:
       lang: en
+  - awesome-pages #works
+
+extra:
+  status:
+    new: Work in progress, expect changes.
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - def_list
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
